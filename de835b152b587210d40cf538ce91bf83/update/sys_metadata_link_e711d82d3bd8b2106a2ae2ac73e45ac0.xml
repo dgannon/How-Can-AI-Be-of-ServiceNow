@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e711d82d3bd8b2106a2ae2ac73e45abf</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>5211582d3bd8b2106a2ae2ac73e45ab4</answer>
+        <condition table="var__m_sys_decision_input_78ff04653bd8b2106a2ae2ac73e45ab1">u_example_table_record.example_true_false=true^u_example_table_record.example_date&gt;javascript:gs.dateGenerate('2025-09-29','end')^EQ<item endquery="false" field="u_example_table_record.example_true_false" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_example_table_record.example_date" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.dateGenerate('2025-09-29','end')"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Example Decision Table">78ff04653bd8b2106a2ae2ac73e45ab1</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_78ff04653bd8b2106a2ae2ac73e45ab1</input_table>
+        <label>Example Decision Table_200</label>
+        <marked_for_deletion>false</marked_for_deletion>
+        <order>200</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 20:22:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e711d82d3bd8b2106a2ae2ac73e45abf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Example Decision Table_200</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name>sys_decision_question_e711d82d3bd8b2106a2ae2ac73e45abf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 20:22:31</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 20:22:31</sys_created_on>
+        <sys_id>e711d82d3bd8b2106a2ae2ac73e45ac0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Example Decision Table_200</sys_name>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name>sys_metadata_link_e711d82d3bd8b2106a2ae2ac73e45ac0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 20:22:31</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

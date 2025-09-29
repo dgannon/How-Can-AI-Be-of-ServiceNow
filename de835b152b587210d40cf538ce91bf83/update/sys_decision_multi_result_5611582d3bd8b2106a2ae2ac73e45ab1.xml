@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="Example Decision Table">78ff04653bd8b2106a2ae2ac73e45ab1</decision_table>
+        <label>Decision: False in the Future</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 20:22:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5611582d3bd8b2106a2ae2ac73e45ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Decision: False in the Future</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name>sys_decision_multi_result_5611582d3bd8b2106a2ae2ac73e45ab1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 20:22:26</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=5611582d3bd8b2106a2ae2ac73e45ab1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>5611582d3bd8b2106a2ae2ac73e45ab1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 20:22:26</sys_created_on>
+        <sys_id>5a11582d3bd8b2106a2ae2ac73e45ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 20:22:26</sys_updated_on>
+        <value>False in the Future</value>
+        <variable display_value="Decision">4e11582d3bd8b2106a2ae2ac73e45a28</variable>
+    </sys_variable_value>
+</record_update>

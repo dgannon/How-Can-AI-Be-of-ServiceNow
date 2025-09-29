@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_analytics_bucket">
+    <sys_analytics_bucket action="INSERT_OR_UPDATE">
+        <analytics_channel display_value="NextExperience">c8ae7e45732130107d804c9885f6a7a5</analytics_channel>
+        <application_name>How Can AI Be of ServiceNow Workspace</application_name>
+        <bucket_document_id>a520fbddb714b21001549042ac6fd2d3</bucket_document_id>
+        <bucket_metadata/>
+        <bucket_metadata_customer_override/>
+        <bucket_table_name>sys_ux_page_registry</bucket_table_name>
+        <bucket_type/>
+        <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>
+        <enabled>true</enabled>
+        <internal_name_for_index>x_snc_how_can_ai_0.sys_ux_page_registry.a520fbddb714b21001549042ac6fd2d3</internal_name_for_index>
+        <sys_class_name>sys_analytics_bucket</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:00:25</sys_created_on>
+        <sys_id>da90f7d12b54b210d40cf538ce91bf30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How Can AI Be of ServiceNow Workspace</sys_name>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name>sys_analytics_bucket_da90f7d12b54b210d40cf538ce91bf30</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:00:25</sys_updated_on>
+    </sys_analytics_bucket>
+</record_update>

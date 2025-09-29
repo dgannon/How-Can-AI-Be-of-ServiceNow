@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>5e11582d3bd8b2106a2ae2ac73e45ab6</answer>
+        <condition table="var__m_sys_decision_input_78ff04653bd8b2106a2ae2ac73e45ab1">u_example_table_record.example_true_false=false^u_example_table_record.example_date&lt;=javascript:gs.dateGenerate('2025-09-29','start')^EQ<item endquery="false" field="u_example_table_record.example_true_false" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="false" field="u_example_table_record.example_date" goto="false" newquery="false" operator="&lt;=" or="false" value="javascript:gs.dateGenerate('2025-09-29','start')"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Example Decision Table">78ff04653bd8b2106a2ae2ac73e45ab1</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_78ff04653bd8b2106a2ae2ac73e45ab1</input_table>
+        <label>Example Decision Table_150</label>
+        <marked_for_deletion>false</marked_for_deletion>
+        <order>150</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 20:22:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a311d82d3bd8b2106a2ae2ac73e45aba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Example Decision Table_150</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name>sys_decision_question_a311d82d3bd8b2106a2ae2ac73e45aba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 20:22:31</sys_updated_on>
+    </sys_decision_question>
+</record_update>
