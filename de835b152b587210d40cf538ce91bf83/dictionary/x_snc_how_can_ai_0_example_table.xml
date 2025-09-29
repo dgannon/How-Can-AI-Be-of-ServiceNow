@@ -8,7 +8,11 @@
         <element label="Example Date" max_length="40" name="example_date" type="glide_date"/>
         <element label="Example Integer" max_length="255" name="example_integer" type="integer"/>
         <element label="Example Calendar Date" max_length="40" name="example_calendar_date" type="calendar_date_time"/>
+        <element label="Example Reference Field" max_length="32" name="example_reference_field" reference="task" type="reference"/>
         <index name="index">
+            <element name="example_reference_field"/>
+        </index>
+        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>
