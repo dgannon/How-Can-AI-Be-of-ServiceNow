@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code>playbook_9c193f192b18b210d40cf538ce91bfc1</code>
+        <commented_message/>
+        <key>False Records</key>
+        <language>en</language>
+        <message>False Records</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:58:11</sys_created_on>
+        <sys_id>90dd7fd52b98b210d40cf538ce91bf1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>False Records</sys_name>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name>sys_ui_message_90dd7fd52b98b210d40cf538ce91bf1c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:58:11</sys_updated_on>
+    </sys_ui_message>
+</record_update>
