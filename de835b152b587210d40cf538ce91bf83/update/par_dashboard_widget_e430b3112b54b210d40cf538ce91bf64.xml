@@ -12,19 +12,19 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e430b3112b54b210d40cf538ce91bf64</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
         <sys_policy/>
         <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
         <sys_update_name>par_dashboard_widget_e430b3112b54b210d40cf538ce91bf64</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-29 17:58:41</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:05:20</sys_updated_on>
         <visualization/>
         <w>48</w>
         <widget_props/>
         <x>0</x>
-        <y>12</y>
+        <y>24</y>
     </par_dashboard_widget>
 </record_update>
