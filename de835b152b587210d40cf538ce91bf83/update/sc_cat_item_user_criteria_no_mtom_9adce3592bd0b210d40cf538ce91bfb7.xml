@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Example Record Producer for New Table">52dce3592bd0b210d40cf538ce91bf4c</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 17:44:02</sys_created_on>
+        <sys_id>9adce3592bd0b210d40cf538ce91bfb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Example Record Producer for New Table.SNC External</sys_name>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_9adce3592bd0b210d40cf538ce91bfb7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 17:44:02</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>

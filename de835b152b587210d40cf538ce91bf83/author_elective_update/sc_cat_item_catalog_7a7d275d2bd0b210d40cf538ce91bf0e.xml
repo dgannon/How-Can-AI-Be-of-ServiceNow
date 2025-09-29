@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Example Record Producer for New Table">52dce3592bd0b210d40cf538ce91bf4c</sc_cat_item>
+        <sc_catalog display_value="DemoHub Tools">3783788d87c396105128cae60cbb35af</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 17:46:48</sys_created_on>
+        <sys_id>7a7d275d2bd0b210d40cf538ce91bf0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DemoHub Tools.Example Record Producer for New Table</sys_name>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_7a7d275d2bd0b210d40cf538ce91bf0e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 17:46:48</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</application>
+        <file_path/>
+        <instance_id>0cef0818eb2f2a108326ff72dad0cd84</instance_id>
+        <instance_name>fdsadmg</instance_name>
+        <name>sc_cat_item_catalog_7a7d275d2bd0b210d40cf538ce91bf0e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Example Record Producer for New Table">52dce3592bd0b210d40cf538ce91bf4c</sc_cat_item><sc_catalog display_value="DemoHub Tools">3783788d87c396105128cae60cbb35af</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-29 17:46:48</sys_created_on><sys_id>7a7d275d2bd0b210d40cf538ce91bf0e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>DemoHub Tools.Example Record Producer for New Table</sys_name><sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package><sys_policy/><sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope><sys_update_name>sc_cat_item_catalog_7a7d275d2bd0b210d40cf538ce91bf0e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-29 17:46:48</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1508178913</payload_hash>
+        <record_name>DemoHub Tools.Example Record Producer for New Table</record_name>
+        <reverted_from/>
+        <source>c3d2e7952bdc7210d40cf538ce91bffd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 17:46:48</sys_created_on>
+        <sys_id>767d275d2bd0b210d40cf538ce91bf12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199969590ef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 17:46:48</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>f67d275d3ed0b210e5cfcc0b33790c11</update_guid>
+        <update_guid_history>f67d275d3ed0b210e5cfcc0b33790c11:1508178913</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="DemoHub Tools.Example Record Producer for New Table">10bda79d2bd0b210d40cf538ce91bf5c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 17:47:43</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>088564a3141e41809e3635df43417744</sys_id>
+        <sys_metadata>7a7d275d2bd0b210d40cf538ce91bf0e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DemoHub Tools.Example Record Producer for New Table</sys_name>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_parent display_value="Example Record Producer for New Table">52dce3592bd0b210d40cf538ce91bf4c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_scope_delete display_value="">635e5956797e47cdaf016eed41352a51</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_7a7d275d2bd0b210d40cf538ce91bf0e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_7a7d275d2bd0b210d40cf538ce91bf0e">767d275d2bd0b210d40cf538ce91bf12</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 17:47:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
