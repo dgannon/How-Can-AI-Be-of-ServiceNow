@@ -2,13 +2,12 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
-        <attributes/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=1289000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>This is the example data changes when a flow is added to an application.</description>
@@ -16,21 +15,20 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>example_flow</internal_name>
-        <label_cache>[]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"Created_1.run_start_date_time","label":"Trigger - Record Created➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"1e2fe030-911a-4409-9248-f290c9b8be6b":["ah_subject"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Example Table Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_how_can_ai_0_example_table","column_name":"number","usedInstances":{"1e2fe030-911a-4409-9248-f290c9b8be6b":["ah_subject"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Example Table Record","reference":"x_snc_how_can_ai_0_example_table","reference_display":"Example Table","type":"reference","base_type":"reference","usedInstances":{"b9c45151-17ef-476f-bf0f-4724b18f1f4b":["record"],"1e2fe030-911a-4409-9248-f290c9b8be6b":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>ea27775d2bd4b210d40cf538ce91bf85</master_snapshot>
         <master_snapshot_digest/>
         <name>Example Flow</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id/>
+        <remote_trigger_id>b627b75d2bd4b210d40cf538ce91bf41</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -38,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7732739d2b54b210d40cf538ce91bf30</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Example Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
@@ -46,14 +44,56 @@
         <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
         <sys_update_name>sys_hub_flow_7732739d2b54b210d40cf538ce91bf30</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-29 18:07:38</sys_updated_on>
+        <sys_updated_on>2025-09-29 18:29:09</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record/>
+        <version_record display_value="Created 2025-09-29 11:29:09">0b27b75d2bd4b210d40cf538ce91bfec</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=7732739d2b54b210d40cf538ce91bf30"/>
     <sys_variable_value action="delete_multiple" query="document_key=7732739d2b54b210d40cf538ce91bf30"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_how_can_ai_0_example_table">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:29:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b627b75d2bd4b210d40cf538ce91bf41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:29:08</sys_updated_on>
+        <table>x_snc_how_can_ai_0_example_table</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>7732739d2b54b210d40cf538ce91bf30</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:29:08</sys_created_on>
+        <sys_id>7627b75d2bd4b210d40cf538ce91bf42</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:29:08</sys_updated_on>
+        <trigger display_value="">b627b75d2bd4b210d40cf538ce91bf41</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7732739d2b54b210d40cf538ce91bf30^sys_idNOT IN7627b75d2bd4b210d40cf538ce91bf42"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=7732739d2b54b210d40cf538ce91bf30"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=7732739d2b54b210d40cf538ce91bf30^sys_idNOT IN7f32739d2b54b210d40cf538ce91bf32"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -68,17 +108,628 @@
         <sys_updated_on>2025-09-29 18:07:37</sys_updated_on>
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7f32739d2b54b210d40cf538ce91bf32"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=7732739d2b54b210d40cf538ce91bf30"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7732739d2b54b210d40cf538ce91bf30^sys_idNOT IN0165fb112bd4b210d40cf538ce91bf6c,19653f112bd4b210d40cf538ce91bf8e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Example Flow">7732739d2b54b210d40cf538ce91bf30</model>
+        <model_id>7732739d2b54b210d40cf538ce91bf30</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7732739d2b54b210d40cf538ce91bf30</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:21:21</sys_created_on>
+        <sys_id>0165fb112bd4b210d40cf538ce91bf6c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:24:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0165fb112bd4b210d40cf538ce91bf6c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Example Flow">7732739d2b54b210d40cf538ce91bf30</model>
+        <model_id>7732739d2b54b210d40cf538ce91bf30</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7732739d2b54b210d40cf538ce91bf30</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:21:23</sys_created_on>
+        <sys_id>19653f112bd4b210d40cf538ce91bf8e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:24:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=19653f112bd4b210d40cf538ce91bf8e"/>
     <sys_hub_flow_output action="delete_multiple" query="model=7732739d2b54b210d40cf538ce91bf30"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7732739d2b54b210d40cf538ce91bf30"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7732739d2b54b210d40cf538ce91bf30"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7732739d2b54b210d40cf538ce91bf30"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7732739d2b54b210d40cf538ce91bf30^sys_idNOT IN02657f112bd4b210d40cf538ce91bfd4"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Example Flow">7732739d2b54b210d40cf538ce91bf30</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:21:26</sys_created_on>
+        <sys_id>02657f112bd4b210d40cf538ce91bfd4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:29:06</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLZACuthxnLdt4kUDbDeo420fglSgpKFNlKZcidLGu8i/d6ibZV18iZWt8xLAJMU5PDxzZpjH7zonLnD9Wp8Rl4N+oTMhIRSEz9YrwGGphh1BlmpuSYRPZBCu9WsZxnCh0zBYzmC54kTiYkp4hINB6EOoX5sXekJ4DA/r6M7HnfD7dJt8Tz2fxt/PTiQ8ZxF8dTwiHMIcw4FngruCUyz1WYRB1n/mX0yyaa0A7S0Y90MQ+vXj04W+IiEGkgrE99oUU0g86pGxBYZnm7ZlGYZ1NTDdS9s1Ld8mYBi4YZ2VGnLZQs7m2PAsQfjgl4w0eAuB+PeCr8sVC6Q942hJniP2DXe/MtQ6Cojdg2yu/OnkfGTD3iJgHtyvJAtENpLhzCYDHi/F5wy/YhIoibksmMSROML9YKUgKxA5IvqAFzItAn5kIj1dPskDj/DyF5EyZG4sIVKEU8aR+uzmnCiIwxT9dHJzP711/vowu/ltMnWmk4fZ9O5mNrnVX9JzOf/GascMYY7FyY7zUl7/RwZcXWChjgjjijl+EnkhW8kPnmRJocOXi422bwLhs5Sdhr69Yira1nfBwi6BG0anxL1KxELmf0/+aCo5GzxOv5eXhPhAOvTr0op+qydvgSZbSKiebpeS85FDpDwwjP9JzLlNvVbLy8AHfrvZTsfJ+RzVzcQqloqtr0TIyJGBQ3zfqfColiKmfeLOzvayV8FhLPADp7yPpo5T2kr+PrEI4T5iNhbcpFviPP2UbzmNhRbgxeEfzYtDpEZqhb/RuyWZ54zSB+DgyYoI6Jeo+ut3FkUqDTeoy6ApB42YZTgUk1YcKYsdnRj8qc8kbpKe1MisJfPRmWyalLpALWOk8tg0bJeaxsgYEurbhuFZlUxugulEKWuSeJOMPi6fo1SM/ADp1SnOwRvVbDhIRsm2BgsSlERy27jpB5rZEzRLQavZn32U/5WyzIZvt9W562g99wDETwh+4R9qgwc6IOXYI7K2Kr7P/Vzi/TMPg1j4dTtSe2pMaJsV2k85fz/36IQ0CGE3gO0V5+SBG9oL4RKx7sH9bGq6YxiAgaZno9+5w/HY9YhF6ehyBJZZc78NjFZs78L19qgtaZNrlwO2Cidp09sR3ncCwIYPHg3wdAfMhdnqf9nc+3C6rwsQDkINHa68rGF4c858KOb6zfZG6GST36dmPL0ae0NzNPJG+GrBjKcDcIk5sIZkPLq0r4a1jG9A2QVTtjDzQ94y0TpKgXS4wZds6rwe6W8p2wikzJ7lx1ZpgX1s+g3JglQqpboWLTWVINQ+B+KXu8067QGwAKYP2r7K9SEo1MVqbwvDDeSi0S9g6F9xfCu06jM7WDm7J1VNJMn2WU9+UsHgajimdrvF0HGbxWzAdMM8+/biwAxJOnOtrc84VPBJa950NgavkHBNJtWOYUdL0xcpZu+kWG9Hin1yG1XkYuc78jVg31EJS/uKU+qYiglOQKvmfRtoOKFhEI1RLf9PIviau9bkApBSjv0yBtRU9FNdu1pFmlBKBf9YIFkH3qhmOKzlDdT5FaqaFPp9AYM/IsOh3dEPj+sv4DZAe/Cefdk6OiuStiTbWbuO27e+Z2v1qkh2WxEH1qVeT91enE47dWt52nfq0wvPrvd7C4ozLSlP/wFY817SWB8AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7732739d2b54b210d40cf538ce91bf30^sys_idNOT IN95b57f912bd4b210d40cf538ce91bf7c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Example Flow">7732739d2b54b210d40cf538ce91bf30</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:22:44</sys_created_on>
+        <sys_id>95b57f912bd4b210d40cf538ce91bf7c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:29:06</sys_updated_on>
+        <ui_id>1e2fe030-911a-4409-9248-f290c9b8be6b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y32/bNhD+Vwg9G6r8S47ztC5etgBrCjRG91AUBEVSMVuK1Cgqjhv4f99Joiw5dlQjTrMW8Jt45PG+u/uOPOrTgyeYd+6Np2dBGMUjMgmGg2EQnA2m02g4jYOzyTToM+L1PEUSDivJAlsNwzsi82I8yzMrlP8nUUqr3264uROUX+ulT3UCy5jIUklWHw9bTRdCMsOVd/7pc89LiQGblhvv/OHRlF2lHEsScQmb3lgj1C2oH+pKrTjXu34VO8Mwq/fUhhUAhj2P31uuGAcbMZEZ73kJUYxYbVbeuTU5CAwn7L2Sq9aK+0x8g/3OgiAo5mMOLtDCgNcaYhelSkwXGoLyPrVCq0piSSSdDtUyT9R1hbmIL49JLm0dX5DkGezH0wKqshsk8c1CLz/UBi+FKr1yk1JTIjcjYsH3KLc8K+LOJU9gI5yQNIWI4NToO1EqA5bEv5Uw8GOpl2A0E7fKJ7QA7kNkiH8J8lkp/kiMKLx4B9uAcgFcikSUyfWK6HnrMiD437yAUrnmnMBVHGBBRo1I7VuwcMcd3nXPUTgIwygKo/Fk2OR9SmM2ieKQTOiwSfWSgNmEmK+YJ0TIFpn7u4wtsT2XmXNQfnNZwKzZeQDKWvlKUZkzjv6p4XZ54GgbaS05UQ1vB928dZId4i5EwR2vIiGyGkHa5AoRtLFcCO2CoxIAfBGLRIYySJeP5hoJB76l0UMrnaMETgBYZmHGEnMLH4ZTAOt7rXIZvUqxuNQ66Wxv3n+Jajq2dPqs68jk4dYpGVHaqpjdgnmhY/wATLXi7xcXexA+cZCPn1cQp5P89U5y0pn6eLCdbM1WP4aPf83f/V2z8QBIGzZWgHYQOj4ubCIbNk6OZGM4Hg/DEx3bdEyXbMCMTlPn2zGUrIWAd72h56iTC5Q1ya9uthY7Hx4uIJeWM9z3aW4gZHa9fkHKzjTNi6Ciq1nN3APQbrqV6j7+UKN+7IVjMHNGsGANkYOj+oy3WaapgMBkrZ5iKewCuoQ97cFwsE15aDZEScr91L9qpl+2BKqu/9kVQKFVM/gRE13f8f80CmUwcJn377UM3a+sUUOf1p5NIdzjTFEMccOUKEwEDjC/J0kKK6uE7NTEH9U0mrvpZzbkhTa6rsAc6siW8hOOudrYkrnS6B9VGnOoh61GGdUBarUkpxugfQOIDFfUdb6Vxo/uSsbdDSnduvOzPPrCqW0xvuZvdbqiPTeBr/Ik4ma9Rm4KwZuqvc7kCmfABYshAlAoIuH7bo8faOlF/s98P44bxU0U90X2iQY/PP2p+ZnelqzzfOXBVnJf52l5AKRa8dHLsuthOTo9LH/Wh+Xn/wDlXbeR5xYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=95b57f912bd4b210d40cf538ce91bf7c"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=7732739d2b54b210d40cf538ce91bf30"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=7732739d2b54b210d40cf538ce91bf30"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=7732739d2b54b210d40cf538ce91bf30"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=7732739d2b54b210d40cf538ce91bf30"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7732739d2b54b210d40cf538ce91bf30</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:21:23</sys_created_on>
+        <sys_id>29653f112bd4b210d40cf538ce91bf93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:21:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7732739d2b54b210d40cf538ce91bf30</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:21:23</sys_created_on>
+        <sys_id>95653f112bd4b210d40cf538ce91bf8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:21:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7732739d2b54b210d40cf538ce91bf30"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7732739d2b54b210d40cf538ce91bf30"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7732739d2b54b210d40cf538ce91bf30"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description>This is the example data changes when a flow is added to an application.</description>
+        <flow_priority/>
+        <internal_name>example_flow</internal_name>
+        <label_cache>[{"name":"Created_1.run_start_date_time","label":"Trigger - Record Created➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"1e2fe030-911a-4409-9248-f290c9b8be6b":["ah_subject"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Example Table Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_how_can_ai_0_example_table","column_name":"number","usedInstances":{"1e2fe030-911a-4409-9248-f290c9b8be6b":["ah_subject"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Example Table Record","reference":"x_snc_how_can_ai_0_example_table","reference_display":"Example Table","type":"reference","base_type":"reference","usedInstances":{"b9c45151-17ef-476f-bf0f-4724b18f1f4b":["record"],"1e2fe030-911a-4409-9248-f290c9b8be6b":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Example Flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Example Flow">7732739d2b54b210d40cf538ce91bf30</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:29:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ea27775d2bd4b210d40cf538ce91bf85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:29:07</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=ea27775d2bd4b210d40cf538ce91bf85"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ea27775d2bd4b210d40cf538ce91bf85"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ea27775d2bd4b210d40cf538ce91bf85"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ea27775d2bd4b210d40cf538ce91bf85^sys_idNOT INa627775d2bd4b210d40cf538ce91bf86"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ea27775d2bd4b210d40cf538ce91bf85</id>
+        <name>Example Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:29:07</sys_created_on>
+        <sys_id>a627775d2bd4b210d40cf538ce91bf86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:29:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a627775d2bd4b210d40cf538ce91bf86"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=ea27775d2bd4b210d40cf538ce91bf85^sys_idNOT IN2627775d2bd4b210d40cf538ce91bfc5,aa27775d2bd4b210d40cf538ce91bf87"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Example Flow">ea27775d2bd4b210d40cf538ce91bf85</model>
+        <model_id>ea27775d2bd4b210d40cf538ce91bf85</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ea27775d2bd4b210d40cf538ce91bf85</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:29:07</sys_created_on>
+        <sys_id>2627775d2bd4b210d40cf538ce91bfc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:29:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2627775d2bd4b210d40cf538ce91bfc5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Example Flow">ea27775d2bd4b210d40cf538ce91bf85</model>
+        <model_id>ea27775d2bd4b210d40cf538ce91bf85</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ea27775d2bd4b210d40cf538ce91bf85</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:29:07</sys_created_on>
+        <sys_id>aa27775d2bd4b210d40cf538ce91bf87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:29:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=aa27775d2bd4b210d40cf538ce91bf87"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ea27775d2bd4b210d40cf538ce91bf85"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ea27775d2bd4b210d40cf538ce91bf85"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=ea27775d2bd4b210d40cf538ce91bf85^sys_idNOT IN3227b75d2bd4b210d40cf538ce91bf38"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Example Flow">ea27775d2bd4b210d40cf538ce91bf85</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:29:07</sys_created_on>
+        <sys_id>3227b75d2bd4b210d40cf538ce91bf38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:29:07</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLZACuthxnLdt4kUDbDeo420fglSgpKFNlKZcidLGu8i/d6ibZV18iZWt8xLAJMU5PDxzZpjH7zonLnD9Wp8Rl4N+oTMhIRSEz9YrwGGphh1BlmpuSYRPZBCu9WsZxnCh0zBYzmC54kTiYkp4hINB6EOoX5sXekJ4DA/r6M7HnfD7dJt8Tz2fxt/PTiQ8ZxF8dTwiHMIcw4FngruCUyz1WYRB1n/mX0yyaa0A7S0Y90MQ+vXj04W+IiEGkgrE99oUU0g86pGxBYZnm7ZlGYZ1NTDdS9s1Ld8mYBi4YZ2VGnLZQs7m2PAsQfjgl4w0eAuB+PeCr8sVC6Q942hJniP2DXe/MtQ6Cojdg2yu/OnkfGTD3iJgHtyvJAtENpLhzCYDHi/F5wy/YhIoibksmMSROML9YKUgKxA5IvqAFzItAn5kIj1dPskDj/DyF5EyZG4sIVKEU8aR+uzmnCiIwxT9dHJzP711/vowu/ltMnWmk4fZ9O5mNrnVX9JzOf/GascMYY7FyY7zUl7/RwZcXWChjgjjijl+EnkhW8kPnmRJocOXi422bwLhs5Sdhr69Yira1nfBwi6BG0anxL1KxELmf0/+aCo5GzxOv5eXhPhAOvTr0op+qydvgSZbSKiebpeS85FDpDwwjP9JzLlNvVbLy8AHfrvZTsfJ+RzVzcQqloqtr0TIyJGBQ3zfqfColiKmfeLOzvayV8FhLPADp7yPpo5T2kr+PrEI4T5iNhbcpFviPP2UbzmNhRbgxeEfzYtDpEZqhb/RuyWZ54zSB+DgyYoI6Jeo+ut3FkUqDTeoy6ApB42YZTgUk1YcKYsdnRj8qc8kbpKe1MisJfPRmWyalLpALWOk8tg0bJeaxsgYEurbhuFZlUxugulEKWuSeJOMPi6fo1SM/ADp1SnOwRvVbDhIRsm2BgsSlERy27jpB5rZEzRLQavZn32U/5WyzIZvt9W562g99wDETwh+4R9qgwc6IOXYI7K2Kr7P/Vzi/TMPg1j4dTtSe2pMaJsV2k85fz/36IQ0CGE3gO0V5+SBG9oL4RKx7sH9bGq6YxiAgaZno9+5w/HY9YhF6ehyBJZZc78NjFZs78L19qgtaZNrlwO2Cidp09sR3ncCwIYPHg3wdAfMhdnqf9nc+3C6rwsQDkINHa68rGF4c858KOb6zfZG6GST36dmPL0ae0NzNPJG+GrBjKcDcIk5sIZkPLq0r4a1jG9A2QVTtjDzQ94y0TpKgXS4wZds6rwe6W8p2wikzJ7lx1ZpgX1s+g3JglQqpboWLTWVINQ+B+KXu8067QGwAKYP2r7K9SEo1MVqbwvDDeSi0S9g6F9xfCu06jM7WDm7J1VNJMn2WU9+UsHgajimdrvF0HGbxWzAdMM8+/biwAxJOnOtrc84VPBJa950NgavkHBNJtWOYUdL0xcpZu+kWG9Hin1yG1XkYuc78jVg31EJS/uKU+qYiglOQKvmfRtoOKFhEI1RLf9PIviau9bkApBSjv0yBtRU9FNdu1pFmlBKBf9YIFkH3qhmOKzlDdT5FaqaFPp9AYM/IsOh3dEPj+sv4DZAe/Cefdk6OiuStiTbWbuO27e+Z2v1qkh2WxEH1qVeT91enE47dWt52nfq0wvPrvd7C4ozLSlP/wFY817SWB8AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=ea27775d2bd4b210d40cf538ce91bf85^sys_idNOT IN7627b75d2bd4b210d40cf538ce91bf1d"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Example Flow">ea27775d2bd4b210d40cf538ce91bf85</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:29:07</sys_created_on>
+        <sys_id>7627b75d2bd4b210d40cf538ce91bf1d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:29:07</sys_updated_on>
+        <ui_id>1e2fe030-911a-4409-9248-f290c9b8be6b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y227jNhD9FUHPhqr4GuepW7tpA2SzwNrYPiwWAkVSMVuKVEkqjtfwv3ckUpZ8gWM3DjYL+M0cDjVnRueIM/669Bnxb/ze8Drsx0kXDcJOuxOG1+3hMO4Mk/B6MAyvCPJbvkApBU80i4yE5RPiebEe59owEfyBhJDi1wlVTwzTBzkPsEzBjTCdcbT4cpw3njFOFBX+zddvLT9DCmIaqvyb5dbWsaA5iikH16nczcAssmKpjWLi0a3vnf+kMkpFividlk+fDRWEQuAEcU1bfooEQUaqhX9jVA4GRRH5JPii4fGs2XcIch2GYbGfUMgAF1H9xjJyRbLmZIwMgvg5NrlyrngmoU7a5k5ognJuRk2bdfiUGSaFPWJQzKvTkuepeLDZ++sHVO8ELLkGEDQr8hNmDT+ZzOT8c4XylomyFG6TS4z4eoUMFCzOTYFn6VNOU3hQlKIsgzJGmZJPrDwMWNLgkcMiSLicQ1DNHkWAcAE8gHKi4Bbs49L8BSlWZPERHgOHC+CcpawkhF+U3F+1fL3QI460rtODukb/5gU4m6xLK7KVKY5gxTLzAWI+UZfBquWEEPb7cdyPe4NOzakhTsggTvpogDs1jeYIgKRI/RPRFDHekMTVLu9LtKfy+wgsFb/vBOY5od5fFahDOB3xYyk5RWKL+VNA+sttUZOa/e3D7HeWHfrPWEEm37LSM9KD98gXHvLWkAqjmVGvRAa/kPGY9jS8rcCbSo+5rBonWt5C5l4KnxFwM7BjkHqEH4piABv4DdF136/kHB2cdbyXKz+FJs8vwCty6KNO+xvf8Rjjhu52ZXey5I6IXknut9FoD5ZTLpXe/5PV5Vb56W4VdJBWSXuTSJIszsvqI8KvWW2D76BxvJ6ZlG+x+s/px/ua04NXcrrf63X6F1K/mtTZnLSJklnmcjsvsSsjZLBak7x7kGWY1LSyl3WD48vlCChhKImuApwrKKJZrc5A/CMgrScE20d8rqBtQ3UCIBLn5QtjZEsHY7fj3Y1rOYSv6pw+aC0xg7roRpc0Z2YGfc+ehqfT3hQOtE+sZOl+Ad3V2+9ASHaEOkFHyYQihWe3jPLiVYs8jUvmb+oLQ4uroi1Wuw7rvbREZdmiknAvNUeHJ95uzdvGM2uZPUda4AgqHGEkIsSiMKLPKM3A0766HcX9bre9qds+sZt6GW4tPxtgH3wnvR3bffOs92A3nPCuThSepZ/T3RTEtjFXeFV5Gr3X5ZJ69SXFdGTZ7nIrg79B+9U73NXjjYZH5/HfFJuGbCoR2LvB23NZBfbrs1p5bsuDSbbpp3IRaaCUiaAmoDaW0n0X3BtGOvGvtZcrVil3sq7XvhqeMg/1L3+y/XBRnl985OAlQMMN4px7nj8ieMXjrXH+5Gm+e5nmfzx933Sa//YfVnEumS4ZAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7627b75d2bd4b210d40cf538ce91bf1d"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=ea27775d2bd4b210d40cf538ce91bf85"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ea27775d2bd4b210d40cf538ce91bf85"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ea27775d2bd4b210d40cf538ce91bf85"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ea27775d2bd4b210d40cf538ce91bf85"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ea27775d2bd4b210d40cf538ce91bf85</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:29:07</sys_created_on>
+        <sys_id>2227b75d2bd4b210d40cf538ce91bf15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:29:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ea27775d2bd4b210d40cf538ce91bf85</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:29:07</sys_created_on>
+        <sys_id>2a27775d2bd4b210d40cf538ce91bfc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:29:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ea27775d2bd4b210d40cf538ce91bf85"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ea27775d2bd4b210d40cf538ce91bf85"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>7732739d2b54b210d40cf538ce91bf30</sys_id>
+        <latest_snapshot>ea27775d2bd4b210d40cf538ce91bf85</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7732739d2b54b210d40cf538ce91bf30^sys_idNOT INba27b75d2bd4b210d40cf538ce91bf5c"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>7732739d2b54b210d40cf538ce91bf30</plan_id>
+        <snapshot>ea27775d2bd4b210d40cf538ce91bf85</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 18:29:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba27b75d2bd4b210d40cf538ce91bf5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 18:29:08</sys_updated_on>
+        <trigger display_value="">b627b75d2bd4b210d40cf538ce91bf41</trigger>
+    </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7732739d2b54b210d40cf538ce91bf30"/>
 </record_update>
