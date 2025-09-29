@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="example_string" label="Example String" language="en" table="x_snc_how_can_ai_0_example_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>example_string</element>
+            <help/>
+            <hint/>
+            <label>Example String</label>
+            <language>en</language>
+            <name>x_snc_how_can_ai_0_example_table</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-29 17:03:50</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Example String</sys_name>
+            <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_how_can_ai_0_example_table_example_string_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:03:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

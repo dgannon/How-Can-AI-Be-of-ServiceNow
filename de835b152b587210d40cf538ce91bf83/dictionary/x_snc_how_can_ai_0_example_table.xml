@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="2fd22b952bdc7210d40cf538ce91bf85" label="Example Table" max_length="40" name="x_snc_how_can_ai_0_example_table" type="collection">
+        <element display="true" label="Example String" max_length="40" name="example_string" type="string"/>
+        <element label="Example True False" max_length="255" name="example_true_false" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Example Date Time" max_length="40" name="example_date_time" type="glide_date_time"/>
+        <element label="Example Date" max_length="40" name="example_date" type="glide_date"/>
+        <element label="Example Integer" max_length="255" name="example_integer" type="integer"/>
+        <element label="Example Calendar Date" max_length="40" name="example_calendar_date" type="calendar_date_time"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>
