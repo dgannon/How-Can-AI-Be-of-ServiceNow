@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">2830b3112b54b210d40cf538ce91bf44</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 17:58:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a830b3112b54b210d40cf538ce91bf5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name>par_dashboard_widget_a830b3112b54b210d40cf538ce91bf5d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 17:58:40</sys_updated_on>
+        <visualization/>
+        <w>47</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</application>
+        <file_path/>
+        <instance_id>0cef0818eb2f2a108326ff72dad0cd84</instance_id>
+        <instance_name>fdsadmg</instance_name>
+        <name>par_dashboard_widget_a830b3112b54b210d40cf538ce91bf5d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">2830b3112b54b210d40cf538ce91bf44</canvas><component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component><component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props><h>3</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-29 17:58:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a830b3112b54b210d40cf538ce91bf5d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package><sys_policy/><sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope><sys_update_name>par_dashboard_widget_a830b3112b54b210d40cf538ce91bf5d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-29 17:58:40</sys_updated_on><visualization/><w>47</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-465035058</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c3d2e7952bdc7210d40cf538ce91bffd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 17:58:40</sys_created_on>
+        <sys_id>6830b3112b54b210d40cf538ce91bf5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19996a06f670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 17:58:40</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>ac30b311f354b21085513632c4da225e</update_guid>
+        <update_guid_history>ac30b311f354b21085513632c4da225e:-465035058</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4930f3112b54b210d40cf538ce91bf4d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 17:58:42</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>15b62c011a9f4838900afe3a57804a40</sys_id>
+        <sys_metadata>a830b3112b54b210d40cf538ce91bf5d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_scope_delete display_value="">635e5956797e47cdaf016eed41352a51</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_a830b3112b54b210d40cf538ce91bf5d</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_a830b3112b54b210d40cf538ce91bf5d">6830b3112b54b210d40cf538ce91bf5f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 17:58:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

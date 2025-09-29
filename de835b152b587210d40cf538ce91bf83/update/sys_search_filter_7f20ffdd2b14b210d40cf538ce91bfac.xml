@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Example Table">6b20ffdd2b14b210d40cf538ce91bf4f</ais_search_source>
+        <label>Example Table</label>
+        <name>Example Table</name>
+        <order>100</order>
+        <search_context_config display_value="How Can AI Be of ServiceNow Workspace AI Search Configuration">2d20fbdd0a14b21052d0e8661aac2fbf</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 17:58:36</sys_created_on>
+        <sys_id>7f20ffdd2b14b210d40cf538ce91bfac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Example Table</sys_name>
+        <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+        <sys_update_name>sys_search_filter_7f20ffdd2b14b210d40cf538ce91bfac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 17:58:36</sys_updated_on>
+    </sys_search_filter>
+</record_update>

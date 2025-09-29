@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Example Fields on Form" section_id="903073112b54b210d40cf538ce91bfcd" sys_domain="global" table="x_snc_how_can_ai_0_example_table" version="3" view="workspace-how-can-ai-be-of-servicenow-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>example_string</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-29 17:58:39</sys_created_on>
+            <sys_id>283073112b54b210d40cf538ce91bff9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Example Fields on Form" display_value="Example Fields on Form" name="x_snc_how_can_ai_0_example_table" sys_domain="global" view="a920fbdd4a14b210bc75924e355bd1be">903073112b54b210d40cf538ce91bfcd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:58:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>example_true_false</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-29 17:58:39</sys_created_on>
+            <sys_id>d03073112b54b210d40cf538ce91bfd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Example Fields on Form" display_value="Example Fields on Form" name="x_snc_how_can_ai_0_example_table" sys_domain="global" view="a920fbdd4a14b210bc75924e355bd1be">903073112b54b210d40cf538ce91bfcd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:58:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>example_reference_field</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-29 17:58:39</sys_created_on>
+            <sys_id>d03073112b54b210d40cf538ce91bfd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Example Fields on Form" display_value="Example Fields on Form" name="x_snc_how_can_ai_0_example_table" sys_domain="global" view="a920fbdd4a14b210bc75924e355bd1be">903073112b54b210d40cf538ce91bfcd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:58:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>example_reference_field.short_description</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-29 17:58:39</sys_created_on>
+            <sys_id>d83073112b54b210d40cf538ce91bfd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Example Fields on Form" display_value="Example Fields on Form" name="x_snc_how_can_ai_0_example_table" sys_domain="global" view="a920fbdd4a14b210bc75924e355bd1be">903073112b54b210d40cf538ce91bfcd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:58:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-29 17:58:39</sys_created_on>
+            <sys_id>d83073112b54b210d40cf538ce91bfd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Example Fields on Form" display_value="Example Fields on Form" name="x_snc_how_can_ai_0_example_table" sys_domain="global" view="a920fbdd4a14b210bc75924e355bd1be">903073112b54b210d40cf538ce91bfcd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:58:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>example_integer</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-29 17:58:39</sys_created_on>
+            <sys_id>d03073112b54b210d40cf538ce91bfd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Example Fields on Form" display_value="Example Fields on Form" name="x_snc_how_can_ai_0_example_table" sys_domain="global" view="a920fbdd4a14b210bc75924e355bd1be">903073112b54b210d40cf538ce91bfcd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:58:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>example_date</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-29 17:58:39</sys_created_on>
+            <sys_id>e03073112b54b210d40cf538ce91bfd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Example Fields on Form" display_value="Example Fields on Form" name="x_snc_how_can_ai_0_example_table" sys_domain="global" view="a920fbdd4a14b210bc75924e355bd1be">903073112b54b210d40cf538ce91bfcd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:58:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>example_date_time</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-29 17:58:39</sys_created_on>
+            <sys_id>d83073112b54b210d40cf538ce91bfd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Example Fields on Form" display_value="Example Fields on Form" name="x_snc_how_can_ai_0_example_table" sys_domain="global" view="a920fbdd4a14b210bc75924e355bd1be">903073112b54b210d40cf538ce91bfcd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:58:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>example_calendar_date</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-29 17:58:39</sys_created_on>
+            <sys_id>e83073112b54b210d40cf538ce91bfd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Example Fields on Form" display_value="Example Fields on Form" name="x_snc_how_can_ai_0_example_table" sys_domain="global" view="a920fbdd4a14b210bc75924e355bd1be">903073112b54b210d40cf538ce91bfcd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:58:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Example Fields on Form</caption>
+            <header>false</header>
+            <name>x_snc_how_can_ai_0_example_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-29 17:58:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>903073112b54b210d40cf538ce91bfcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_how_can_ai_0_example_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="How Can AI Be of ServiceNow" source="x_snc_how_can_ai_0">de835b152b587210d40cf538ce91bf83</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="How Can AI Be of ServiceNow">de835b152b587210d40cf538ce91bf83</sys_scope>
+            <sys_update_name>sys_ui_section_903073112b54b210d40cf538ce91bfcd</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:58:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace How Can AI Be of ServiceNow Workspace 0" name="workspace-how-can-ai-be-of-servicenow-workspace-0">a920fbdd4a14b210bc75924e355bd1be</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
